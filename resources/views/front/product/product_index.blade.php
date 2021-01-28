@@ -20,7 +20,7 @@
             
         </div>
         <div class="card_wrap">
-            <a class="product_card" href="./04-product_detail.html">
+            <a class="product_card" href="/test">
                 <!-- <div class="product_card"> -->
                     <div class="card_img" style="background-image: url('../img/04-product_index/古董輪狀系卷.jpg')"></div>
                     <div class="product_body">
