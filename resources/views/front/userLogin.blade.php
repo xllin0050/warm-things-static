@@ -1,7 +1,7 @@
     @extends('layouts.template')
     <title>登入</title>
     @section('css')
-    <link rel="stylesheet" href="/css/06-userLogin.css">
+    <link rel="stylesheet" href="{{ asset(./css/06-userLogin.css)}}">
     @endsection
     @section('main')
     <div class="login-wrap">

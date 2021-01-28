@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <!-- hover.js -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==" crossorigin="anonymous" />
-<link rel="stylesheet" href="{{ asset('css/01-index.css') }}">
+<link rel="stylesheet" href="{{ asset('./css/01-index.css') }}">
 @endsection
 
 @section('main')
