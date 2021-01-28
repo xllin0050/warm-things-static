@@ -29,8 +29,9 @@ Route::get('/test', function (){
 });
 
 // Route::get('/about_us', 'FrontController@aboutUs');
+
 Route::get('/about_us', function(){
-    return view('front\aboutus\index');
+    return view('front.aboutus.index');
 });
 
 // Route::get('/adult_utensils', 'FrontController@adultUtensils');
