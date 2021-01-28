@@ -59,7 +59,7 @@
         <img src="./img/01-index/02-products/productBanner.jpg" alt="">
     </div>
     <h1>PRODUCTS</h1>
-    <a href="">::ALL::</a>
+    <a href="/product">::ALL::</a>
     <!-- swiper -->
     <div class="swiper_area">
         <div class="swiper-container-2 ">
@@ -192,7 +192,7 @@
             <p>小代燒是九州的代表陶器之一</p>
         </div>
     </div>
-    <a href="">::See More::</a>
+    <a href="/news_product">::See More::</a>
     <div class="gray_bc"></div>
 </section>
 @endsection
