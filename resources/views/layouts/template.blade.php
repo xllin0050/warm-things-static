@@ -124,6 +124,7 @@
         <section class="copyright">
             <p class="copyright_text">Copyright © [2021] [溫事]. All rights reserved.</p>
         </section>
+        本站為學習試作網站。
     </footer>
 
 
