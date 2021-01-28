@@ -28,12 +28,32 @@ Route::get('/test', function (){
    return view('front.product.product_detail');
 });
 
-Route::get('/about_us', 'FrontController@aboutUs');
-Route::get('/adult_utensils', 'FrontController@adultUtensils');
-Route::get('/news_product', 'FrontController@newsProduct');
-Route::get('/news_show', 'FrontController@newsShow');
+// Route::get('/about_us', 'FrontController@aboutUs');
+Route::get('/about_us', function(){
+    return view('front\aboutus\index');
+});
+
+// Route::get('/adult_utensils', 'FrontController@adultUtensils');
+Route::get('/adult_utensils', function() {
+    return view('front.adultutensils.index');
+});
+
+// Route::get('/news_product', 'FrontController@newsProduct');
+Route::get('/news_product', function(){
+    return view('front.news.news');
+});
+
+// Route::get('/news_show', 'FrontController@newsShow');
+Route::get('/news_show', function(){
+    return view('front.news.show');
+});
+
 Route::get('/checkout', 'FrontController@checkout');
-Route::get('/product', 'FrontController@product');
+// Route::get('/product', 'FrontController@product');
+Route::get('/product',  function(){
+    return view('front.product.product_index');
+});
+
 Route::get('/create_order','FrontController@createOrder');
 Route::get('/product/{id}', 'FrontController@productType');
 
